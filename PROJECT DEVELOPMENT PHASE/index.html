@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ML Model Prediction</title>
+  </head>
+  <body>
+    <h2>Enter the details:</h2>
+    <form action="/predict" method="post">
+      Application Type:
+      <input type="text" name="Application_Type" /><br /><br />
+      Signal Strength:
+      <input type="number" name="Signal_Strength" /><br /><br />
+      Latency: <input type="number" name="Latency" /><br /><br />
+      Required Bandwidth:
+      <input type="number" name="Required_Bandwidth" /><br /><br />
+      <input type="submit" value="Predict" />
+    </form>
+  </body>
+</html>
